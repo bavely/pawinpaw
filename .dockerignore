@@ -1,0 +1,8 @@
+node_modules
+.git
+.gitignore
+.env*
+coverage
+*.log
+# Hard-coded DB credentials; the container connects via the MYSQL_URL env var instead.
+config/config.json
